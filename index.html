@@ -185,6 +185,32 @@
     </div>
   </section>
 
+
+
+  <section class="section section-tint" id="schedule">
+  <div class="wrap wrap-narrow">
+    <h2>Programme schedule</h2>
+    <p>
+      Our first programme runs from 21 October 2026 to 13 January 2027 —
+      Wednesdays at 3:30&nbsp;pm Singapore time (UTC+8), every other week.
+      Browse the full schedule below or download the PDF.
+    </p>
+
+    <div class="pdf-toolbar">
+      <button class="btn btn-secondary btn-sm" id="pdfPrev" aria-label="Previous page">‹ Prev</button>
+      <span class="pdf-page-indicator" id="pdfPageInfo" aria-live="polite">Page – / –</span>
+      <button class="btn btn-secondary btn-sm" id="pdfNext" aria-label="Next page">Next ›</button>
+      <button class="btn btn-secondary btn-sm" id="pdfZoomOut" aria-label="Zoom out">−</button>
+      <button class="btn btn-secondary btn-sm" id="pdfZoomIn" aria-label="Zoom in">+</button>
+      <a class="btn btn-primary btn-sm" href="assets/schedule.pdf" download="asmp-schedule.pdf">Download PDF</a>
+    </div>
+
+    <div class="pdf-reader" id="pdfReader" role="region" aria-label="Programme schedule PDF reader">
+      <!-- Rendered by PDF.js; iframe fallback appears if PDF.js fails to load -->
+      <div class="pdf-pages" id="pdfPages"></div>
+    </div>
+  </div>
+</section>
 </main>
 
 <footer class="site-footer">
